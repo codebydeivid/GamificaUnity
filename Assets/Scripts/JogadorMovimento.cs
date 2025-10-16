@@ -39,5 +39,5 @@ public class JogadorMovimento : MonoBehaviour
         {
             transform.localScale = new Vector3(x: -4, y: 4, z: 1);
         }
-        anim.SetBool("Run", horizontalImput != 0);
+        anim.SetBool("run", horizontalImput != 0);
 }
